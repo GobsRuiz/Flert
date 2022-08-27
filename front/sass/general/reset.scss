@@ -14,12 +14,14 @@ html{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 button{
     border: 0;
-    background-color: none;
+    background-color: transparent;
     outline: none;
+    cursor: pointer;
 }
 
 input, select{
