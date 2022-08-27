@@ -33,6 +33,7 @@ input, select {
 }
 #users__cards {
   height: 400px;
+  display: flex;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   overflow: hidden;
@@ -43,6 +44,16 @@ input, select {
   border-radius: 8px;
   overflow: hidden;
   position: absolute;
+  transition: opacity 0.3s, transform 0.3s, left 0.3s;
+}
+#users__cards .users__cards__card:nth-child(1) {
+  z-index: 9;
+}
+#users__cards .users__cards__card:nth-child(2) {
+  z-index: 8;
+}
+#users__cards .users__cards__card:nth-child(3) {
+  z-index: 7;
 }
 #users__cards .users__cards__card > img {
   width: 100%;
@@ -81,6 +92,23 @@ input, select {
 #users__cards .users__cards__card__infos__description {
   font-size: 1rem;
   line-height: 1.4;
+}
+#users__cards .users__cards__message {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#users__cards .users__cards__message p {
+  font-size: 1rem;
+  font-weight: 700;
 }
 #users #users__controls {
   width: 100%;
