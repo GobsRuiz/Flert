@@ -13,6 +13,8 @@ html{
 }
 
 a{
+    max-width: max-content;
+    display: inline-block;
     text-decoration: none;
     cursor: pointer;
 }
@@ -27,4 +29,8 @@ button{
 input, select{
     border: 0;
     outline: none;
+}
+
+image{
+    display: inline-block;
 }

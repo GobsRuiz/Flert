@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "sass_index" : "sass --watch sass/style_index.scss css/style_index.css"
+        "sass_index" : "sass --watch sass/style_index.scss css/style_index.css",
+        "sass_login" : "sass --watch sass/style_login.scss css/style_login.css"
     }
 }

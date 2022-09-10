@@ -1,0 +1,19 @@
+// Buttons
+.btn{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    border: 2px solid #fff;
+    border-radius: 77px;
+    padding: 10px 15px;
+    position: relative;
+    
+
+    &:hover{
+        background-color: #fff;
+        color: #8e2de2;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+}
