@@ -28,7 +28,9 @@ button{
 
 input, select{
     border: 0;
+    background-color: transparent;
     outline: none;
+    box-sizing: border-box;
 }
 
 image{

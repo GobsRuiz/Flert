@@ -1,6 +1,7 @@
 {
     "scripts": {
         "sass_login" : "sass --watch sass/style_login.scss css/style_login.css",
+        "sass_register" : "sass --watch sass/style_register.scss css/style_register.css",
         "sass_index" : "sass --watch sass/style_index.scss css/style_index.css",
         "sass_error" : "sass --watch sass/style_error.scss css/style_error.css"
     }
