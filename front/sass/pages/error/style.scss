@@ -1,0 +1,22 @@
+.error{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+
+    &__number{
+        color: #fff;
+        font-size: 150px;
+        line-height: 1;
+    }
+
+    &__message{
+        max-width: 550px;
+        color: #fff;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+}
