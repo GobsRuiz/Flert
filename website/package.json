@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "sassHome" : "sass --watch sass/style_home.scss css/style_home.css --style compressed"
+    }
+}
