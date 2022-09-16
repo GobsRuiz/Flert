@@ -58,9 +58,30 @@ image {
 }
 
 body {
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FF512F; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #F09819, #FF512F); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: #8E2DE2;
   background: -webkit-linear-gradient(to top, #4A00E0, #8E2DE2);
   background: linear-gradient(to top, #4A00E0, #8E2DE2);
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #EB5757; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #000000, #EB5757); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c94b4b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4b134f, #c94b4b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .login {
